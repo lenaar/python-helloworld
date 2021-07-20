@@ -1,5 +1,5 @@
-# python-helloworld
-Exercise: Continuous Application Deployment
+# Exercise: Continuous Application Deployment of python-helloworld
+
 Create a new GitHub Actions in the `/.github/workflows/docker-build.yml` that will build and push the Docker image for a 
 python-helloworld, with the following requirements:
 
