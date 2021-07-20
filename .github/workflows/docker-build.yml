@@ -2,9 +2,11 @@ name: Build hello python world using Github Actions
 
 on:
   push:
-    - "main"
+    branches:
+      - "main"
   pull_requests:
-    - "main"
+    branches:
+      - "main"
 
 jobs:
   build:
